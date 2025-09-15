@@ -1,4 +1,5 @@
 import randomInteger from 'random-int';
+
 //Завдання 1
 
 console.log('Завдання 1')
@@ -101,4 +102,5 @@ const newArithmeticalMeanOfArrayOfNumbersLesserThanZeroBetweenMeans = arrayOfNum
     )
 const arrayOfValuesBetweenArithmeticalMeans = [...newArithmeticalMeanOfArrayOfNumbersLesserThanZeroBetweenMeans, ...newArithmeticalMeanOfArrayOfNumbersGreaterThanZeroBetweenMeans];
 console.log('Кінцевий масив', arrayOfValuesBetweenArithmeticalMeans)
+
 
